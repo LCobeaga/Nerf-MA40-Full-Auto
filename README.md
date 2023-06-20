@@ -98,6 +98,10 @@ The wires to the pusher should be packed above the old pusher channel, and make 
 
 The pusher motor should turn into the shell on the return to prevent the pusher from catching on the internal ribs, i.e. clockwise looking from the top.
 
+If the pusher works fine while the blaster is open but seems to work slowly or wont work when closed, try shaving a little material from this area of the pusher.
+
+![shave pusher spot](https://github.com/LCobeaga/Nerf-MA40-Full-Auto/assets/44830532/e5781b15-c8ae-4fb5-af6d-6afec12d05c8)
+
 And thats all, have fun using your slightly more game accurate MA40 (in game the RPM is 720 so decide on your N20 motor accordingly).
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
