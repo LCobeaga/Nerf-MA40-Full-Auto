@@ -2,11 +2,13 @@
 
 This file set is an almost drop in replacemnt for the semi automatic pusher to convert the Nerf MA40 into a full auto firing blaster. 
 
-Note that the hardware is all flycore except the pusher bolt, I need to redesign for an M3 instead of an M2
+Note that the hardware is all flycore except the pusher bolt, which is designed for an M2 instead of an M3 to give the pusher the maximum possible throw.
 
 ## Hardware
 
-(3) M2.6x10mm toy screws
+(3) M2.6x10mm toy screws (if not using a pusher return sensor, only 1)
+
+(2) M2.6x12mm toy screws
 
 (1) M2x6mm socket head bolt
 
@@ -14,11 +16,9 @@ Note that the hardware is all flycore except the pusher bolt, I need to redesign
 
 (1) N20 Motor (1000 rpm or below, higher rpm motors have insuffiucent torque and burn out)
 
-(1) Cherry DB2 style switch 
+(1) Cherry DB2 style switch (for pusher return sensor)
 
-If an Omron/Tezuo style microswitch is used for the trigger 
-
-(2) M2.6x12mm toy screws
+(1) Omron/Tezuo style microswitch 
 
 ## Wiring
 
@@ -32,7 +32,7 @@ I found these orientations work best, a little support is needed on the pusher a
 
 ![print orientation](https://github.com/LCobeaga/Nerf-MA40-Full-Auto/assets/44830532/23f4beb9-3fac-449c-b30f-fe5a605f4b4f)
 
-I also printed the post in the center of the disk solid for extra support on the D-slot.
+I also suggest printing the post in the center of the disk solid for extra support on the D-slot.
 
 ## Blaster Modificatons 
 
@@ -43,15 +43,15 @@ If you leave the post the entire mod can be undone and retuned to semi auto if y
 
 ![Wire clearance](https://user-images.githubusercontent.com/44830532/235378399-95d5e7be-a0e0-4c36-9a69-fbd90ebc0882.png)
 
-Create a little channel for the wires to pass and remove the tiny spoke under the switch plate.
+Create a little channel for the wires to pass under the barrel near the front of the flywheels and remove the tiny spoke under the switch plate.
 
 ![Right shell wall removal](https://user-images.githubusercontent.com/44830532/235378422-99735dc4-9ced-45e7-920d-1931f143ad6a.png)
 
-Remove the walls shown, the rough cut is just clearance for the wires but you can also feed them under the pusher mount.
+Remove the walls shown, the rough cut is just clearance for the wires.
 
-![Left shell wall removal](https://user-images.githubusercontent.com/44830532/235378428-f757ebde-d6ef-437b-b14b-6f555e20bf4a.png)
+![left shell](https://github.com/LCobeaga/Nerf-MA40-Full-Auto/assets/44830532/7ae139d4-6730-493d-931a-3c17087957f4)
 
-Remove the support wall shown, it can be bent off, no need to flush cut.
+Remove the support walls shown, the top most one should be cut flush to the horizontal wall to allow for pusher clearance.
 
 ## Assembly
 
@@ -76,15 +76,27 @@ Make sure that the corner of the motor mount (red arrow) is not sitting on top o
 
 To insert the actual pusher first move the screw to the front of the pusher mechanism and align the pusher slot.
 
-(image)
+![pusher step 2](https://github.com/LCobeaga/Nerf-MA40-Full-Auto/assets/44830532/3a4d3440-92e2-41c2-879a-dedb791baf6e)
 
 Then place the bolt into the pusher slot.
 
-(image)
+![pusher step 3](https://github.com/LCobeaga/Nerf-MA40-Full-Auto/assets/44830532/381e569e-dd1e-4b72-a9f9-ea22b5f33cb6)
 
 finally snap the long tab of the pusher into the old pusher channel. 
 
-Add lubriucant to the top of the pusher disk, the right side of the pusher arm, and inside both slots on the top of the pusher.
+## Troubleshooting/Suggestions
+
+If the pusher is sticking add lubriucant to the top of the pusher disk, the right side of the pusher arm, and inside both slots on the top of the pusher.
+
+Drilling vent holes along the barrel should improve performance, which normally is hindered by the long barrel.
+
+The OFP cage available for the MA40 seems to be off center to the right of the blaster (too low on the posts) so I've had to add about 2mm worth of M2 washers.
+
+Before closing up the blaster make sure to add in the black cosmetic pieces at the stock and cheek rest as the wires dent to get in the way so youll have to move them around screw posts.
+
+The wires to the pusher should be packed above the old pusher channel, and make sure the pusher has clearance for when it is in the furthest back position.
+
+The pusher motor should turn into the shell on the return to prevent the pusher from catching on the internal ribs, i.e. clockwise looking from the top.
 
 And thats all, have fun using your slightly more game accurate MA40 (in game the RPM is 720 so decide on your N20 motor accordingly).
 
